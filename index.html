@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roleta Burger Day</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="form-container">
+    <h1>Identifique-se</h1>
+    <form id="nameForm">
+      <input type="text" id="clientName" placeholder="Digite seu nome" required />
+      <button type="submit">Confirmar</button>
+    </form>
+  </div>
+
+  <div id="wheel-container" style="display: none;">
+    <div class="pointer"></div>
+    <div id="wheel"></div>
+    <button id="spin">GIRAR</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
